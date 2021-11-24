@@ -3,7 +3,7 @@ import { Client } from './client.model';
 
 @Injectable()
 export class ClientsService {
-  private readonly clients: Client[] = [
+  public clients: Client[] = [
     { clientId: 1, name: 'Paulo' },
     { clientId: 2, name: 'Beatriz' },
     { clientId: 3, name: 'Larissa' },
