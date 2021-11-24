@@ -8,4 +8,8 @@ export class ProductsService {
     { productId: 2, isActive: true, currentQuantity: 0 },
     { productId: 1, isActive: false, currentQuantity: 3 },
   ];
+
+  findAll(): Product[] {
+    return this.products;
+  }
 }
